@@ -15,6 +15,7 @@ function 聲母規則() {
     if (is('並母 上聲')) return 'p';
     if (is('並母 去聲')) return 'b';
     if (is('並母 入聲')) return 'b';
+    if (is('幫母 三等')) return 'f';
 	if (is('明母')) return 'm';
 	if (is('端母')) return 't';
 	if (is('透母')) return 'th';
